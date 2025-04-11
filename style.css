@@ -1,15 +1,26 @@
 body {
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     height: 100vh;
-    background-color: #3582c4; /* Dark background */
-    color: black;              /* Light text */
+    background-color: #3582c4;
+    color: black;
     font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
     text-align: center;
     padding-top: 20%;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    animation: backgroundFade 10s infinite alternate; 
+    animation: backgroundFade 10s infinite alternate;
     background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
-    background-size: 400% 400%; ;
+    background-size: 400% 400%;
+}
+
+.progress-container {
+    margin-top: 30px;
+    color: white;
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 10px;
+    font-weight: bold;
 }
